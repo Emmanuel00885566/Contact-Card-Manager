@@ -1,8 +1,0 @@
-<Text style={styles.contactCount}>
-  Total Contacts: {contacts.length}
-</Text>
-contactCount: {
-  fontSize: 16,
-  fontWeight: '600',
-  marginBottom: 10,
-}

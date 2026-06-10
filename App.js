@@ -10,11 +10,18 @@ const Stack = createNativeStackNavigator();
 export default function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="ContactList">
+      <Stack.Navigator
+        initialRouteName="ContactList"
+        screenOptions={{
+          headerStyle: { backgroundColor: '#534AB7' },
+          headerTintColor: '#fff',
+          headerTitleStyle: { fontWeight: 'bold', fontSize: 18 },
+        }}
+      >
         <Stack.Screen
           name="ContactList"
           component={ContactListScreen}
-          options={{ title: 'My Contacts' }}
+          options={{ title: '📇 My Contacts' }}
         />
         <Stack.Screen
           name="AddContact"
