@@ -1,7 +1,6 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-
 import ContactListScreen from './src/screens/ContactListScreen';
 import AddContactScreen from './src/screens/AddContactScreen';
 
